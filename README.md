@@ -24,12 +24,13 @@ with 25 or 26).
 * 14-807-86.jpg
 * 28-425-60.jpg
 * 123-45-678.jpg
+* parking_lot_table.PNG
 
 # DB:
 The service will automatically create the parking_lot table:
     
 e.g.
 
-![parking lot table](C:\Users\ohirsh\PycharmProjects\pythonProject\parking_lot_table.PNG)
+![parking lot table](parking_lot_table.PNG)
 
 
