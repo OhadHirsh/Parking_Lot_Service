@@ -30,6 +30,6 @@ The service will automatically create the parking_lot table:
     
 e.g.
 
-![parking lot table](C:\Users\ohirsh\PycharmProjects\pythonProject\parking_lot_table.PNG)
+![parking lot table](parking_lot_table.PNG)
 
 
