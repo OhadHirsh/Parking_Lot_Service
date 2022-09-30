@@ -20,7 +20,6 @@ class Ocr:
                         Defaults to 'en'.
         :return: Result in JSON format.
         """
-        # api_key = 'K86313628888957'
         payload = {'isOverlayRequired': overlay,
                    'apikey': api_key,
                    'language': language,
@@ -46,7 +45,6 @@ class Ocr:
                         Defaults to 'en'.
         :return: Result in JSON format.
         """
-        # api_key = 'K86313628888957'
         payload = {'url': url,
                    'isOverlayRequired': overlay,
                    'apikey': api_key,
@@ -112,6 +110,4 @@ class Ocr:
         lp = Ocr._extract_lp(text_dict)
         decision = Ocr.get_decision(lp)
         return lp, decision
-        # current_time = datetime.datetime.now()
-        # Ocr.insert_data_to_parking_lot_table([int(lp), decision, "'{}'".format(current_time)])
 

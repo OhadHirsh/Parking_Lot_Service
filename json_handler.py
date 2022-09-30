@@ -3,7 +3,6 @@ import json
 
 class JsonHandler:
 
-
     @staticmethod
     def convert_str_to_json(string):
         """

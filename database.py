@@ -1,5 +1,4 @@
 import sqlite3 as sl
-import datetime
 
 
 class DB:
@@ -24,19 +23,5 @@ class DB:
         self.cur.execute('''{}'''.format(query))
         self.con.commit()
 
-
-
-# current_time = datetime.datetime.now()
-
-# ql = 'INSERT INTO parking_lot (lp, entered, timestamp) VALUES (1234567, True, \'{}\')'.format(current_time)
-
-
-#      cur.execute('''{}'''.format(query))
-# print('Done')
-# # with con:
-# #     data = con.execute("SELECT * FROM PARKING_LOT")
-# #     for row in data:
-# #         print(row)
-# con.commit()
 
 db_handler = DB()
